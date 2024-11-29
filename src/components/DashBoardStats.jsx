@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import boltshift from "../assets/boltshift.png";
+import feather from "../assets/feather.png";
 
 const Dashboard = () => {
   return (
@@ -24,7 +26,7 @@ const Dashboard = () => {
           <Col xs={12} sm={6} md={4} lg={2}>
             <div className="d-flex align-items-center justify-content-center">
               <Image
-                src="src/assets/boltshift.png"
+                src={boltshift}
                 alt="Boltshift"
                 roundedCircle
                 width="30"
@@ -48,7 +50,7 @@ const Dashboard = () => {
           <Col xs={12} sm={6} md={4} lg={2}>
             <div className="d-flex align-items-center justify-content-center">
               <Image
-                src="src/assets/feather.png"
+                src={feather}
                 alt="FeatherDev"
                 roundedCircle
                 width="30"

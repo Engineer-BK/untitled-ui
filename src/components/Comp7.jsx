@@ -1,4 +1,5 @@
 import React from "react";
+import ffgwsd from "../assets/ffgwsd.jpg";
 
 const Comp7 = () => {
   return (
@@ -21,7 +22,7 @@ const Comp7 = () => {
         <div className="row my-5 justify-content-center">
           <div className="col-md-10">
             <img
-              src="src\assets\ffgwsd.jpg"
+              src={ffgwsd}
               alt="Analytics"
               className="img-fluid shadow rounded"
             />
