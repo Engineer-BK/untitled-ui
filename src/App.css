@@ -1,0 +1,205 @@
+.demo-btn,
+.sign-up-btn {
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: bold;
+  border: 2px solid;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.demo-btn {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.demo-btn:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+.demo-btn:disabled {
+  background-color: #f0f0f0;
+  color: #999;
+  border-color: #ccc;
+}
+
+.sign-up-btn {
+  background-color: #6f42c1;
+  color: #fff;
+  border-color: #6f42c1;
+}
+
+.sign-up-btn:hover {
+  background-color: #5a31a1;
+  border-color: #5a31a1;
+}
+
+.feature-buttons {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #d6bbfc;
+  border-radius: 25px;
+  padding: 5px 10px;
+  background-color: #f9f4ff;
+}
+
+.feature-btn {
+  background-color: transparent;
+  border: none;
+  color: #7c3aed;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.dashboard-btn {
+  background-color: transparent;
+  border: none;
+  color: #7c3aed;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+}
+
+.dashboard-btn:hover {
+  text-decoration: underline;
+}
+
+.demo-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.sign-up-btn {
+  background-color: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.sign-up-btn:hover {
+  background-color: #6a2dc1;
+}
+
+.testimonial-section {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  color: #333;
+}
+
+.testimonial-logo img {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.author-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.author-name {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.author-title {
+  font-size: 0.875rem;
+  color: #666;
+  margin: 0;
+}
+
+.testimonial-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.author-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.author-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.author-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.author-title {
+  font-size: 14px;
+  color: gray;
+}
+
+.features-section {
+  background-color: #f9f9f9;
+}
+
+.features-section .badge {
+  font-size: 0.875rem;
+  padding: 0.5em 1em;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+}
+
+.features-section .text-muted {
+  font-size: 0.9rem;
+}
